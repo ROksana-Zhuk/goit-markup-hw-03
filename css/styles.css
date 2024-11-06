@@ -1,6 +1,7 @@
 header {
     background-color: #FFFFFF;
     height: 72px;
+    border-bottom: 1px solid #E7E9FC;
 }
 .wrapper {
     display: flex;
@@ -20,12 +21,10 @@ body {
     line-height: 1.5;
 }
 .container {
-    max-width: 1158px;
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: 156px;
-    margin-right: 156px;
-}
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+        }
 .section {
     padding: 120px;
 }
@@ -53,8 +52,6 @@ ul {
     letter-spacing: 0.02em;
     text-align: left;
     display: inline;
-
-
 }
 .contacts-list {
     justify-content: space-between;
@@ -71,7 +68,6 @@ ul {
     letter-spacing: 0.02em;
     text-align: left;
     font-style: normal;
-
 }
 
 .page-contacts {
@@ -91,17 +87,14 @@ ul {
 }
 
 .solutions-title {
-
     color: #FFFFFF;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
-
 }
 
 .order-button {
-
     font-family: "Roboto", sans-serif;
     background-color: #4D5AE5;
     color: #FFFFFF;
@@ -136,10 +129,9 @@ ul {
     color: #2E2F42;
 }
 
-
-.benefits {
-    padding-top: 120px;
-    padding-bottom: 120px;
+.benefits-items {
+    width: calc((100% - 72px) / 4);
+    width: 264px;
 
   }
 .visually-hidden {
@@ -156,6 +148,11 @@ ul {
     overflow: hidden;
 }
 
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .benefits-subtitle {
     color: #2E2F42;
     font-size: 20px;
@@ -163,6 +160,7 @@ ul {
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: left;
+    padding-bottom: 8px;
 }
 
 .benefits-text {
@@ -173,13 +171,12 @@ ul {
 
 .team {
     background-color: #F4F4FD;
-    padding-top: 120px;
-    padding-bottom: 120px;
 }
 
 .team-list {
+    width: calc((100% - 72px) / 4);
     justify-content: space-between;
-
+    gap: 24px;
 }
 
 .team-title {
@@ -220,18 +217,18 @@ ul {
 }
 .portfolio {
     padding-bottom: 120px;
-
 }
+
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
-    border: 1px;
     gap: 24px;
 
 }
 .portfolio-items {
-    border: 1px solid #E7E9FC;
+    width: calc((100% - 78px) / 3);
 }
+
 
 .portfolio-title {
     color: #2E2F42;
@@ -257,6 +254,14 @@ ul {
     padding-left: 16px;
 }
 
+.portfolio-border {
+    border-right: 1px;
+    border-bottom: 1px;
+    border-left: 1px;
+    border-style: solid;
+    border-color: #E7E9FC;
+}
+
 .portfolio-text {
     color: #434455;
     letter-spacing: 0.02em;
@@ -275,7 +280,6 @@ ul {
 .footer {
     padding-top: 100px;
     padding-bottom: 100px;
-    padding-right: 1020px;
 }
  footer p {
     margin-top: 16px;
