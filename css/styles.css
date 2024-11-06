@@ -2,11 +2,12 @@ header {
     background-color: #FFFFFF;
     height: 72px;
     border-bottom: 1px solid #E7E9FC;
+}
 .header-logo {
     margin-right: 76px;
 }
 
-}
+
 .wrapper {
     display: flex;
     flex-direction: row;
@@ -47,7 +48,6 @@ ul {
     justify-content: space-between;
     margin-left: 76px;
     margin-right: 332px;
-    gap: 40px;
 }
 .navigation-link {
     color: #2E2F42;
@@ -60,6 +60,7 @@ ul {
 .contacts-list {
     justify-content: space-between;
     width: 344px;
+    gap: 40px;
 
 }
 .navigation-link:hover,
