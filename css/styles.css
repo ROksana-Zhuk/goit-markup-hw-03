@@ -307,8 +307,9 @@ ul {
     width: 264px;
  }
 .footer-link {
-display: block;
+display: inline-block;
 margin-bottom: 16px;
+
 }
 .logo-studio-white {
     color: #F4F4FD;
