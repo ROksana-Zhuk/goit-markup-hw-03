@@ -193,6 +193,7 @@ ul {
 .team-list {
     align-items: center;
     gap: 24px;
+    width: 1128px;
 }
 
 .team-title {
@@ -231,7 +232,6 @@ ul {
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
     width: calc((100% - 72px) / 4);
-
 }
 .portfolio {
     padding-top: 120px;
@@ -243,6 +243,7 @@ ul {
     flex-wrap: wrap;
     gap: 24px;
     row-gap: 48px;
+    width: 1128px;
 }
 .portfolio-items {
     width: calc((100% - 48px) / 3);
