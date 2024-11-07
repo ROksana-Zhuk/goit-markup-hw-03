@@ -164,7 +164,7 @@ ul {
     padding-bottom: 120px;
 }
 .benefits-list {
-    display: inline;
+    display: flex;
     gap: 24px;
     align-items: center;
 
@@ -296,10 +296,11 @@ ul {
     color: #F4F4FD;
     letter-spacing: 0.02em;
     text-align: left;
-    height: 312px;
+
 }
 .footer {
     padding: 100px 0px;
+
 }
  footer p {
     margin-top: 16px;
