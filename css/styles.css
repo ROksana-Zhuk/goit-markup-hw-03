@@ -1,9 +1,9 @@
 header {
     background-color: #FFFFFF;
-    height: 72px;
     border-bottom: 1px solid #E7E9FC;
 }
 .header-logo {
+    padding: 24px 0px;
     margin-right: 76px;
 }
 
@@ -15,7 +15,7 @@ header {
 }
 
 h1,h2,h3,h4,h5,h5, p {
-      margin: 0%;
+      margin: 0px;
 }
 
 body {
@@ -43,9 +43,10 @@ ul {
     margin: 0;
 }
 .navigation-list {
+    display: flex;
     width: 261px;
     gap: 40px;
-    justify-content: space-between;
+    align-items: center;
     margin-left: 76px;
     margin-right: 332px;
 }
@@ -54,11 +55,12 @@ ul {
     font-weight: 500;
     letter-spacing: 0.02em;
     text-align: left;
-    display: inline;
+    display: block;
     padding: 24px 0;
 }
 .contacts-list {
-    justify-content: space-between;
+    display: flex;
+    align-items: center;
     width: 344px;
     gap: 40px;
 
@@ -76,8 +78,8 @@ ul {
 }
 
 .page-contacts {
-    display: inline;
     font-style: normal;
+    margin-left: auto;
 }
 
 .page-contacts .link:hover,
@@ -97,6 +99,8 @@ ul {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    max-width: 496px;
+    margin: 0 auto;
 }
 
 .order-button {
@@ -109,7 +113,7 @@ ul {
     text-align: left;
     font-size: 16px;
     line-height: 1.5;
-    margin-top: 48px;
+    margin: 48px auto 0px auto;
     padding: 16px 32px;
     border-radius: 4px;
 }
@@ -136,7 +140,7 @@ ul {
 
 .benefits-items {
     width: calc((100% - 72px) / 4);
-    width: 264px;
+    gap: 24px;
 
   }
 .visually-hidden {
@@ -156,6 +160,12 @@ ul {
 .section {
     padding-top: 120px;
     padding-bottom: 120px;
+}
+.benefits-list {
+    display: inline;
+    gap: 24px;
+    align-items: center;
+
 }
 
 .benefits-subtitle {
@@ -180,7 +190,7 @@ ul {
 
 .team-list {
     width: calc((100% - 72px) / 4);
-    justify-content: space-between;
+    align-items: center;
     gap: 24px;
 }
 
@@ -287,16 +297,14 @@ ul {
 
 }
 .footer {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding: 100px 0px;
 }
  footer p {
     margin-top: 16px;
     width: 264px;
-    height: 72px;
  }
 .footer-link {
-display: inline-block;
+display: block;
 margin-bottom: 16px;
 }
 .logo-studio-white {
